@@ -21,6 +21,7 @@ return new class extends Migration
             $table->unsignedBigInteger('jumlah_halaman');
             $table->string('summary');
             $table->unsignedBigInteger('qty');
+            $table->date('tahun_rilis');
             $table->timestamps();
             $table->softDeletes();
         });
